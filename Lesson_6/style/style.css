@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #212121;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+.container {
+    margin: 0 auto;
+    padding: 50px 20px;
+    max-width:1200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.column {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px 50px;
+    border: 1px dotted slateblue;
+    margin-bottom: 50px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sendReviews {
+    padding: 50px 50px;
+    border: 1px dotted slateblue;
+    margin-bottom: 50px;
+}
+
+.sendReviews > textarea {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.sendReviews > input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.sendReviews > input[type="submit"] {
+    padding: 10px 20px;
+    float: right;
+    font: 16px 'Roboto', sans-serif;
+ }
+
+.chair {
+    display: block;
+    background-color: blue;
+    height: 150px;
+    width:150px;
+    box-sizing: border-box;
+}
+
+.chair:hover {
+    opacity: 0.5;
+}
+
+.to_main_page {
+    font: bold 12px 'Roboto', sans-serif;
+    color: teal;
+    margin-top: 20px;
+}
+
+.to_main_page:hover {
+    text-decoration: none;
+}
+
+.text {
+    width:450px;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    color: #212121;
+    font-size: 30px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+h4 {
+    color: #212121;
+    font-size: 20px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+.chair-description {
+    color: #212121;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    transform: scaleY(1.0005);
+    margin-bottom: 10px;
+}
+.views_number {
+    color: #212121;
+    font-size: 30px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    margin-bottom: 10px
+}
+.cost {
+    background-color: #f44336;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px
+}
+
+.properties {
+    display: block;
+}
+
+.review {
+    width: 30%;
+    min-width: 350px;
+    border: 1px dotted slateblue;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.icon {
+    margin-top: 5px;
+    margin-right: 5px;
+    color: slateblue;
+}
+
+.icon:hover {
+    color: lightsteelblue;
+}
